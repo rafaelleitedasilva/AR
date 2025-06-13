@@ -1,10 +1,6 @@
 <?php
 
-use App\Http\Controllers\{LetterController, LoginController, SeriesController, WelcomeController, WaterController};
-use App\Livewire\Finances\Create as FinancesCreate;
-use App\Livewire\Finances\View as FinancesCategory;
-use App\Livewire\Water\Heshe as WaterHeshe;
-use App\Livewire\Water\Me as WaterMe;
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 

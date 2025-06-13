@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class WelcomeController extends Controller
 {
     public function home(){
@@ -20,7 +18,7 @@ class WelcomeController extends Controller
         while (count($files) > 14) {
             array_pop($files);
         }
-        
+
         return view('welcome')->with('files',$files);
     }
 }
